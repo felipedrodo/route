@@ -1,5 +1,7 @@
 function Home() {
-    return <h1>Bem vindo ao Home</h1>
+    return <div className="app">
+        <h1>Bem vindo ao Home</h1>
+        </div>
 };
 
 export default Home;

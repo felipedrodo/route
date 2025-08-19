@@ -10,7 +10,7 @@ function ListaUsuarios() {
   }, []);
  
   return (
-    <div>
+    <div className="app">
       <h2>Lista de Usuários</h2>
       <ul>
         {usuarios.map((usuario) => (
